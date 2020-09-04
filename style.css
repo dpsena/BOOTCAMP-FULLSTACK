@@ -1,0 +1,357 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html{
+    background-color:black;
+    background-image:url(./img/fondo4.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+body{
+    color:white;
+    background-color: transparent;
+    }
+
+.tit1{
+    color:#dae6e0;
+    text-align: center;
+    font-style: oblique;
+    font-weight: 200;
+    font-family: 'Kavoon', cursive;
+}
+
+.main-menu{
+    width: auto;
+    height: 80px;
+    display: flex;
+    align-items: center ;
+    justify-content:center ;
+    background-color: #0099FF;
+}
+.main-menu img{
+    width:100px;
+     height:100px;
+}
+.opt-menu{
+    justify-content:flex-end;
+    width: 60%;
+}
+.opt-menu li{
+ list-style: none;
+ width: 90%;
+ color:white;
+ font-family: 'Courier New', Courier, monospace;
+ font-size:large;
+}
+
+.opt-menu a{
+ text-decoration:none;
+ color:white;
+}
+.opt-menu a:hover{
+    color: #CCCC00;
+    font-weight: 200;
+    transform: scale(1);
+    font-style: oblique;
+    border: solid 0.5px black;
+    border-radius: 3px 3px;
+    border-style: groove;
+    background-color: rgba(0, 0, 0,0.5);
+    margin: 5% 3% 0% 8%;
+    padding: 4%;
+    font-size:1rem;
+}
+/*estilos de clase 2 sep PAG INICIO*/
+p{
+   color:white;
+}
+.container{
+    margin:5% 10% 3% 8%;
+}
+.main-characters{
+    display: flex;
+    flex-wrap: wrap;
+    color:white;
+    justify-content: center;
+}
+
+.character{
+    width: 25%;
+    margin:3%;
+    border:2px #e6e6e6 solid;
+    border-right: 4px #e6e6e6 solid;
+    border-bottom: 4px #e6e6e6 solid ;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 0.8rem;
+
+}
+.character img{
+    width: 90%;
+    border-radius: 3%;
+   }
+
+.character div{
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 3%;
+   }
+.character h2{
+   font-weight: 600;
+   margin-bottom: 3%;
+   }
+
+   footer{
+       background-color: darkslategrey;
+       color:white;
+       height: 40px;
+       text-align: center;
+       padding: 2%;
+       font-style:italic;
+       font-family: cursive;
+   }
+
+.fa-heart{
+    color:#CC66CC ;
+
+}
+/*estilos para pagina sobre mi*/
+.cont_sobremi{/*contenedor principal*/
+    margin: 5%;
+    width: 80%;
+    height: auto;
+    background-color: transparent;
+    padding:5%;
+    border: white  1px solid;
+    border-radius: 98px 15px 98px 35px;
+    box-shadow: rgba(93, 173, 226 ,0.7) 8px 8px 2px,
+    rgba(133, 193, 233 ,0.7) 9px 9px 3px,
+    rgba(93, 173, 226 ,0.7) 10px 10px 4px,
+    rgba(23, 32, 42,1) 13px 13px 30px;
+}
+/*encabezado sobre mi*/
+.cont_sobremi .cont_section{
+    margin: 1%;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    justify-content: space-around;
+    /*border: white  3px solid;*/
+}
+.cont_sobremi .cont_section .principal img{
+    width: 100px;
+    height: 120px;
+    border-radius:30% ;
+    box-shadow:
+        1px 1px 1px #AEB6BF,
+        2px 2px 1px #000000,
+        4px 4px 6px #B2EBF2;
+}
+.cont_sobremi .cont_section .profesion h1{
+    margin: 25px;
+    color:white;
+    font-family:cursive;
+    text-align: center;
+    font-size: 2.5rem;
+}
+/*Habilidades */
+.cont_info{
+   display:flex;
+   flex-direction:column;
+   justify-content: space-around;
+   justify-content: space-between;
+}
+.study{
+   width:auto;
+   height:auto;
+   text-align: left;
+   background-color:rgba(38, 198, 218,0.4);
+   border-radius:  10px   35px;
+   border-style:groove;
+   padding: 20px;
+   }
+.study ul{
+    list-style:none;
+    font-size: 1.5rem;
+}
+.study img{
+    width: 10%;
+    height: 10%;
+    float:right;
+    margin-top:-5%;
+    display:flex;
+   flex-direction:center;
+   justify-content: space-around;
+   justify-content: space-between;
+}
+.hab {
+    color: lightcyan;
+    text-align: left;
+    padding: 15px;
+    font-size: 2rem;
+}
+/*conocimientos*/
+ .tconocimineto  h2{
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font:1rem;
+    padding: 3%;
+
+   }
+.cont_sobremi .conocimiento ,.plataform, .lg {
+    color:whitesmoke;
+    font-style: italic;
+    font-family: cursive;
+    text-align: left;
+    padding: 2%;
+    font-size: 0.5em;
+   
+}
+.conocimiento .imgStudio{
+    width:400px;
+    height:250px;
+    display: flex;
+   flex-direction: row;
+    justify-content: space-around;
+    justify-content: space-between;
+
+}
+.conocimiento .imgStudio img{
+    width: 35%;
+    height: 35%;
+    padding: 2%;
+    margin: 1%;
+    margin-top: 2%;
+    border:2px lightskyblue solid;
+    border-style: groove  2px solid;
+    border-radius: 8px;
+    align-items: center;
+    border-radius: 5px;
+   }
+/*contenedor formulario*/
+.container-reg{
+    background-color: rgba(176, 190, 197,0.2);
+    margin:8%;
+    padding:8%;
+    border:4px black solid;
+    border-radius: 28px 15px 28px 35px;
+    box-shadow: rgba(93, 173, 226 ,0.7) 8px 8px 2px,
+        rgba(133, 193, 233 ,0.7) 9px 9px 3px,
+        rgba(93, 173, 226 ,0.7) 10px 10px 4px,
+        rgba(23, 32, 42  ,1) 13px 13px 15px;
+
+}
+.container-reg h1{
+    text-justify: kashida;
+    text-align: center;
+    font-family:cursive,italic;
+    padding: 30px;
+   text-decoration: underline black;
+
+}
+/*formulario de registro pagina contacto clase 3 sep*/
+.form-flex{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    padding: 4px;
+    margin: 5%;
+}
+.input-form{
+    margin-bottom: 2%;
+}
+.input-form div{
+   width: 30%;
+   float: left;
+}
+.input-form input{
+   width:60%;
+   background-color: lightblue;
+   border:#311B92  2px solid;
+   border-radius: 5%;
+   }
+
+.label:hover{
+
+    background:rgba(204, 255, 255,0.4);
+    border-radius: 4px 3px 5px 3px;
+    color:black;
+    text-align-last: center;
+    font-weight:400;
+    font-size: 1em;
+    margin-right:2%;
+}
+.input-form input:hover{
+    background-color: rgba(0, 255, 0,0.1);
+    color:white;
+    font-family: cursive;
+    font-weight: 200;
+    font-size: 16px;
+    border-radius: 4px 3px 5px 3px;
+    margin-left:5px;
+}
+
+
+
+/*estilos button*/
+.form-button{
+    text-align: right;
+}
+.form-button button{
+    width: 60px;
+    height: 30px;
+    background-color: green;
+    border-radius: 2% black;
+    color: whitesmoke;
+    border: 5px solid;
+    padding: 2px;
+}
+.form-button button:hover{
+    width: 100px;
+    height: 40px;
+    border: 2px solid;
+}
+
+/*estilos campos de seleccion*/
+.seleccion{
+    display:flex;
+    
+    align-items: left;
+    justify-content: space-between;
+    width:100%;
+    height: auto;
+    flex-direction: row;
+   
+}
+
+/*estilos campos de seleccion*/
+.seleccion .opciones{
+    text-align: left !important;
+    width:50%;
+    height:auto;
+    justify-content: space-around;
+    padding: 1px;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.opciones label{
+ color:black;
+ font-family: monospace;
+ font-weight: bold;
+}
+.seleccion .opciones input{
+    width:20%;
+ }
+ .opciones h4{
+    text-align: center;
+    font-style: oblique;
+    font-size:20px;
+    color:darkblue;
+    font-family: monospace;
+    font-weight: bold;
+}

@@ -1,0 +1,132 @@
+/*clase 4 de septiembre*/
+
+.sec-flex{
+    display:flex;
+    align-items: center;
+    /*justify-content: space-around;
+    margin: 0% 5% 0% 5%;*/
+}
+/*contenedor de imagenes*/
+.fotos-sec{
+    border:2px solid black;
+    flex-wrap:wrap ;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+.imagen-sec{
+   width: 25%;
+   text-align: center;
+}
+.imagen-sec img{
+    border-radius: 5%;
+    width: 90%;
+    height:90%;
+    margin: 5px;
+}
+
+.imagen-sec img:hover{
+
+    border:5px #52BE80 solid;
+    border-radius: 30px;
+    box-shadow: 3px 5px  rgba(128, 139, 150,1) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.container{
+    margin:5% 10% 3% 8%;
+}
+footer{
+    background-color: darkslategrey;
+    color:white;
+    height: 40px;
+    text-align: center;
+    padding: 2%;
+    font-style:italic;
+    font-family: cursive;
+}
+/*cod clase 3 sep*//*
+.sec-flex{
+
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.sec-flex img{
+    border: 2px solid;
+    width: 120px;
+    height: 160px;
+    padding: 5%;
+    border-radius: 25%;
+}
+.sec-flex div{
+    padding: 22px;
+    border-radius: 5%;
+}
+
+.flex-child{
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin: 2%;
+    width: 40%;
+    border: 3px solid gray;
+    border-style: groove;
+    
+}
+.flex-child p{
+   width:  60%;
+}
+.flex-child img{
+   width: 25%; 
+   padding:1px;
+   border-radius: 25%;
+}

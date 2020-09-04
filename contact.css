@@ -1,0 +1,111 @@
+
+/*contenedor formulario*/
+.container-contact{
+    background-color: rgba(176, 190, 197,0.2);
+    margin:8%;
+    padding:8%;
+    border:4px black solid;
+    border-radius: 28px 15px 28px 35px;
+    box-shadow: rgba(93, 173, 226 ,0.7) 8px 8px 2px,
+        rgba(133, 193, 233 ,0.7) 9px 9px 3px,
+        rgba(93, 173, 226 ,0.7) 10px 10px 4px,
+        rgba(23, 32, 42  ,1) 13px 13px 15px;
+
+}
+.container-reg h1{
+    text-justify: kashida;
+    text-align: center;
+    font-family:cursive,italic;
+    padding: 30px;
+   text-decoration: underline black;
+
+}
+/*formulario de registro pagina contacto clase 3 sep*/
+.form-flex{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+   
+}
+.input-form{
+    margin-bottom: 2%;
+}
+.input-form div{
+   width: 30%;
+   float: left;
+   
+}
+.input-form input{
+   width:60%;
+   border:pink 2px solid;
+   }
+
+   .input-form div:hover{
+
+    background:rgba(204, 255, 255,0.4);
+    border-radius: 4px 3px 5px 3px;
+    color:black;
+    text-align-last: center;
+    font-weight:400;
+    font-size: 1em;
+   margin-right:2%;
+}
+.input-form input:hover{
+    background-color: rgba(0, 255, 0,0.1);
+    color:white;
+    font-family: cursive;
+    font-weight: 200;
+    font-size: 16px;
+    border-radius: 4px 3px 5px 3px;
+    margin-left:5px;
+}
+
+/*estilos button*/
+.form-button{
+    text-align: right;
+}
+.form-button button{
+    width: 60px;
+    height: 30px;
+    background-color: green;
+    border-radius: 2% black;
+    color: whitesmoke;
+    border: 5px solid;
+    padding: 2px;
+}
+.form-button button:hover{
+    width: 100px;
+    height: 40px;
+    border: 2px solid;
+}
+
+/*estilos campos de seleccion*/
+.seleccion{
+    display:flex;
+    align-items: left;
+    justify-content: space-between;
+    width: 100%;
+   
+}
+.opciones{
+    text-align: center;
+    width:49%;
+    justify-content: space-around;
+ 
+}
+.opciones h4{
+    text-align: center;
+    font-style: oblique;
+    font-size: 15px;
+    color:darkblue;
+    font-family: monospace;
+    font-weight: bold;
+}
+.opciones label{
+ color:black;
+ font-family: monospace;
+ font-weight: bold;
+}
+.opciones input{
+    width:10%;
+ }
