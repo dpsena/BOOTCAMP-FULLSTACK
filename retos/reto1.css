@@ -1,0 +1,44 @@
+
+.contenedor_menu{
+background-color: black;
+border: red 2px solid;
+width: auto;
+height: 80px;
+display: flex;
+align-items: center ;
+justify-content:center;
+flex-direction: row;
+box-shadow: 5px 2px 5px rgba(255, 255, 255,1) ;
+}
+.browser {
+    justify-content:center;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+    width: 120%;
+    font:18px;
+     
+}
+.browser ul{
+    text-align: center;
+    text-decoration:none;
+    border-radius: 3%;
+   
+
+}
+.browser ul li{
+    list-style:none;
+    color: white;
+    text-decoration:none;
+    border:white 2px solid;
+}
+.browser a{
+    text-decoration:none;
+    color: red;
+    border:white 2px solid;
+    padding: 5px;
+    margin: 4px;
+    border-radius: 5px 5px 5px 5px;
+    align-content: center;
+}
