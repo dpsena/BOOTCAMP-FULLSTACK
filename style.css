@@ -368,6 +368,7 @@ color:darkblue;
 background: darkcyan;
 border-style:groove;
 border-radius: 15px;
-
-
+font-style: 18px;
+font-style: oblique;
+font-weight: bold;
 }
