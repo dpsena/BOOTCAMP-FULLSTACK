@@ -294,9 +294,6 @@ p{
     border-radius: 4px 3px 5px 3px;
     margin-left:5px;
 }
-
-
-
 /*estilos button*/
 .form-button{
     text-align: right;
@@ -357,4 +354,20 @@ p{
     color:darkblue;
     font-family: monospace;
     font-weight: bold;
+}
+/*Boton Cambio de nombre personajes*/
+.bt-cambio{
+
+display: flex;
+align-items: flex-end;
+align-content:center;
+padding: 5px;
+border: forestgreen 2px solid ;
+margin: 6px;
+color:darkblue;
+background: darkcyan;
+border-style:groove;
+border-radius: 15px;
+
+
 }
