@@ -1,0 +1,73 @@
+/*Contenedor principal*/
+*{margin:0;
+padding: 0;}
+html{
+  background-color: black;
+}
+main{
+  width: 80%;
+margin: 10%;
+ /*border: groove 5px;*/
+ border-radius: 255px;
+ display: flex;
+ justify-content: center;
+
+}
+.container {
+  
+  border: 8px solid green;
+  border-radius: 16px;
+  background-color: lightgreen;
+  width: 40%;
+  height: 600px;
+  margin: 8%;
+  text-align: center;
+  padding: 8px;
+  
+}
+
+.container h1{
+  margin: 5px;
+  padding: 2px;
+  font-style: oblique;
+ font-size: 35px;
+}
+
+.numCalcu {
+  margin-top: 5px;
+width: 60%;
+height: 310px;
+  background-color:rgba(0,0,0,0.8);
+  padding:10%;
+  
+  margin-left:10% ;
+  margin-right:10% ;
+  border-radius:25px ;
+  display: flex;
+  flex-flow:column row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.numCalcu button{
+    width: 60px;
+    height: 50px;
+    margin: 10px;
+    border-radius:15px;
+    border: 2px white solid;
+    background-color: rgba(0, 0, 139, 0.733);
+    color:white;
+    font-size: 18px;
+   
+}
+ input{
+  margin-top: 20px;
+    width:80%;
+    height: 80px;
+    background-color: black;
+    font-size:25px ;
+    color: black;
+    border:3px black solid;
+    border-radius: 20px;
+ }

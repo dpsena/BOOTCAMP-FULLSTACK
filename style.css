@@ -22,47 +22,6 @@ body{
     font-family: 'Kavoon', cursive;
 }
 
-.main-menu{
-    width: auto;
-    height: 80px;
-    display: flex;
-    align-items: center ;
-    justify-content:center ;
-    background-color: #0099FF;
-}
-.main-menu img{
-    width:100px;
-     height:100px;
-}
-.opt-menu{
-    justify-content:flex-end;
-    width: 60%;
-}
-.opt-menu li{
- list-style: none;
- width: 90%;
- color:white;
- font-family: 'Courier New', Courier, monospace;
- font-size:large;
-}
-
-.opt-menu a{
- text-decoration:none;
- color:white;
-}
-.opt-menu a:hover{
-    color: #CCCC00;
-    font-weight: 200;
-    transform: scale(1);
-    font-style: oblique;
-    border: solid 0.5px black;
-    border-radius: 3px 3px;
-    border-style: groove;
-    background-color: rgba(0, 0, 0,0.5);
-    margin: 5% 3% 0% 8%;
-    padding: 4%;
-    font-size:1rem;
-}
 /*estilos de clase 2 sep PAG INICIO*/
 p{
    color:white;
@@ -232,129 +191,6 @@ p{
     align-items: center;
     border-radius: 5px;
    }
-/*contenedor formulario*/
-.container-reg{
-    background-color: rgba(176, 190, 197,0.2);
-    margin:8%;
-    padding:8%;
-    border:4px black solid;
-    border-radius: 28px 15px 28px 35px;
-    box-shadow: rgba(93, 173, 226 ,0.7) 8px 8px 2px,
-        rgba(133, 193, 233 ,0.7) 9px 9px 3px,
-        rgba(93, 173, 226 ,0.7) 10px 10px 4px,
-        rgba(23, 32, 42  ,1) 13px 13px 15px;
-
-}
-.container-reg h1{
-    text-justify: kashida;
-    text-align: center;
-    font-family:cursive,italic;
-    padding: 30px;
-   text-decoration: underline black;
-
-}
-/*formulario de registro pagina contacto clase 3 sep*/
-.form-flex{
-    display: flex;
-    flex-direction: column;
-    text-align:center;
-    padding: 4px;
-    margin: 5%;
-}
-.input-form{
-    margin-bottom: 2%;
-}
-.input-form div{
-   width: 30%;
-   float: left;
-}
-.input-form input{
-   width:60%;
-   background-color: lightblue;
-   border:#311B92  2px solid;
-   border-radius: 5%;
-   }
-
-.label:hover{
-
-    background:rgba(204, 255, 255,0.4);
-    border-radius: 4px 3px 5px 3px;
-    color:black;
-    text-align-last: center;
-    font-weight:400;
-    font-size: 1em;
-    margin-right:2%;
-}
-.input-form input:hover{
-    background-color: rgba(0, 255, 0,0.1);
-    color:white;
-    font-family: cursive;
-    font-weight: 200;
-    font-size: 16px;
-    border-radius: 4px 3px 5px 3px;
-    margin-left:5px;
-}
-/*estilos button*/
-.form-button{
-    text-align: right;
-}
-.form-button button{
-    width: 60px;
-    height: 30px;
-    background-color: green;
-    border-radius: 2% black;
-    color: whitesmoke;
-    border: 5px solid;
-    padding: 2px;
-}
-.form-button button:hover{
-    width: 100px;
-    height: 40px;
-    border: 2px solid;
-}
-
-/*estilos campos de seleccion*/
-.seleccion{
-    display:flex;
-    
-    align-items: left;
-    justify-content: space-between;
-    width:100%;
-    height: auto;
-    flex-direction: row;
-   
-}
-
-/*estilos campos de seleccion*/
-.seleccion .opciones{
-    text-align: left !important;
-    width:50%;
-    height:auto;
-    justify-content: space-around;
-    align-content: center;
-    padding: 1px;
-    margin: 0;
-    margin-left: 25px;
-    flex-wrap: wrap;
-    list-style: none;
-}
-
-.opciones label{
- color:black;
- font-family: monospace;
- font-weight: bold;
-}
-.seleccion .opciones input{
-    width:10%;
- }
- .opciones h4{
-    text-align: center;
-    font-style: oblique;
-    font-size:20px;
-    color:darkblue;
-    font-family: monospace;
-    font-weight: bold;
-}
 /*Boton Cambio de nombre personajes*/
 .bt-cambio{
 
@@ -368,7 +204,7 @@ color:darkblue;
 background: darkcyan;
 border-style:groove;
 border-radius: 15px;
-font-style: 18px;
+font-style: 2em;
 font-style: oblique;
 font-weight: bold;
 }
